@@ -1,3 +1,4 @@
+using System;
 using Code.Player;
 using UnityEngine;
 
@@ -17,16 +18,26 @@ namespace Code.Main
         
         }
 
-        [SerializeField] private PlayerController PlayerController;
+        [SerializeField] private PlayerController _playerController;
+        [SerializeField] private SproutController _sproutController;
+
+        private void Awake()
+        {
+            Application.targetFrameRate = 60;
+        }
 
         private void Start()
         {
-            PlayerController.Initialize();
+            _playerController.Initialize();
+            _sproutController.Initialize();
+            
+            _sproutController.AddSprout(0, new Vector2(0, -2f));
         }
 
         private void Update()
         {
-            PlayerController.Tick();
+            _playerController.Tick();
+            _sproutController.Tick();
         }
     }
 }

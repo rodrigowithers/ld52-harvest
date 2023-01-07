@@ -335,7 +335,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,7 +356,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,7 +377,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -398,7 +398,7 @@ TextureImporter:
         width: 16
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -411,7 +411,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_0
+      name: Weapon_Sprout_0
       rect:
         serializedVersion: 2
         x: 1
@@ -432,7 +432,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_1
+      name: Weapon_Sprout_1
       rect:
         serializedVersion: 2
         x: 17
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_2
+      name: Weapon_Sprout_2
       rect:
         serializedVersion: 2
         x: 33
@@ -474,7 +474,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_3
+      name: Weapon_Sprout_3
       rect:
         serializedVersion: 2
         x: 49
@@ -495,7 +495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_4
+      name: Weapon
       rect:
         serializedVersion: 2
         x: 70
@@ -530,21 +530,21 @@ TextureImporter:
       Idle_Down_1: -479520187
       Idle_Up_0: 41170220
       Lake_BR: -941706945
-      SpriteSheet_4: 1916386548
+      Weapon_Sprout_1: 1891303618
       Grass: -1264159637
       Lake_TL: -1572176384
       Idle_Down_0: 182060873
       Lake_TR: 1938524875
-      SpriteSheet_2: -1087289982
+      Weapon_Sprout_0: 1550048895
       Idle_Up_1: -925387864
       Lake_BL: 1736113688
       Lake_L: -1791015754
-      SpriteSheet_0: 1550048895
       Lake_T: -1744625129
-      SpriteSheet_1: 1891303618
       Lake_R: 1161450678
       Lake_C: 1771877490
-      SpriteSheet_3: -843863735
+      Weapon: 1916386548
+      Weapon_Sprout_3: -843863735
+      Weapon_Sprout_2: -1087289982
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
